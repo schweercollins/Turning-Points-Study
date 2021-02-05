@@ -1,6 +1,6 @@
 baseURL: https://example.com
 languageCode: en-us
-title: Vanilla
+title: sit name here
 theme: "vanilla-bootstrap-hugo-theme"
 googleAnalytics: UA-123456789-1
 
@@ -14,9 +14,9 @@ permalinks:
 # The value of pre is the icon name
 menu:
   nav:
-  - name: Home
+  - name: Study Home
     pre: home
-    url: /
+    url: /home/
     weight: 1
   - name: Blog
     pre: edit
@@ -34,13 +34,21 @@ menu:
     pre: rss
     url: /index.xml
     weight: 5
+  - name: Our Team
+    pre: users
+    url: /team/
+    weight: 6
+  - name: Study History
+    pre: clock
+    url: /history/
+    weight: 7
 
 params:
   includeBootstrapJs: false
   showActiveNav: true
   containerMaxWidth: 700px
   dateFormat: Jan 2, 2006
-  homeText: Welcome to the Vanilla theme demo. Have a look around. Maybe even eat some ice cream.
+  homeText: welcome home
   footerText: Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)
   hideFooter: false
   katex: true
