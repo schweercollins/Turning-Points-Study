@@ -1,10 +1,6 @@
 ---
-title: Turning Points for Women Study
-
+title: Our Team
 ---
-
-
-### Why *this study* and *why now*?  ![](/title/_index_files/Study Logo.png)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)

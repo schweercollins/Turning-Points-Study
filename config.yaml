@@ -1,6 +1,6 @@
 baseURL: https://example.com
 languageCode: en-us
-title: sit name here
+title: Turning Points For Women Study
 theme: "vanilla-bootstrap-hugo-theme"
 googleAnalytics: UA-123456789-1
 
@@ -16,32 +16,32 @@ menu:
   nav:
   - name: Study Home
     pre: home
-    url: /home/
+    url: /
     weight: 1
   - name: Blog
     pre: edit
     url: /post/
-    weight: 2
-  - name: Tags
-    pre: tag
-    url: /tags/
-    weight: 3
-  - name: About
-    pre: smile
-    url: /about/
     weight: 4
-  - name: RSS
-    pre: rss
-    url: /index.xml
-    weight: 5
+  - name: Contact Us
+    pre: send
+    url: /SayHello/
+    weight: 7
   - name: Our Team
     pre: users
     url: /team/
-    weight: 6
+    weight: 2
   - name: Study History
     pre: clock
     url: /history/
-    weight: 7
+    weight: 3
+  - name: Documentation
+    pre: github
+    url: /github/
+    weight: 6
+  - name: Data
+    pre: database
+    url: /data/
+    weight: 5
 
 params:
   includeBootstrapJs: false
@@ -50,7 +50,7 @@ params:
   dateFormat: Jan 2, 2006
   homeText: welcome home
   footerText: Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)
-  hideFooter: false
+  hideFooter: true
   katex: true
 
 markup:
@@ -81,5 +81,5 @@ markup:
     style: monokai
     tabWidth: 4
   tableOfContents:
-    endLevel: 6
+    endLevel: 3
     startLevel: 2
